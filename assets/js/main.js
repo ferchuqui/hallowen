@@ -44,7 +44,11 @@ let homeSwiper = new Swiper(".home-swiper", {
 }});
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
+function scrollHeader(){
+  const header = document.getElementById('header')
+  if(this.scrollY>=100) header.classList.add('scroll-header')
+}
+window.addEventListener('scroll', scrollHeader)
 
 /*=============== NEW SWIPER ===============*/
 
