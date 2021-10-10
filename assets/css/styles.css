@@ -375,7 +375,15 @@ button {
   justify-self: center;
 }
 /*=============== TRICK OR TREAT ===============*/
-
+.trick__container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+.trick__content{
+  position: relative;
+  background: var(--container-color);
+}
 /*=============== DISCOUNT ===============*/
 
 /*=============== NEW ARRIVALS ===============*/
