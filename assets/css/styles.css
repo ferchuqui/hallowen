@@ -971,17 +971,18 @@ button {
     }
   }
 }
-@media screen and(min-width: 1200px){
-  .home__img{
-    height:420px;
+
+@media screen and(min-width: 1200px) {
+  .home__img {
+    height: 420px;
   }
-  .swiper-pagination{
+  .swiper-pagination {
     margin-top: var(--mb-2-5);
   }
-  .footer__img-one{
+  .footer__img-one {
     width: 120px;
   }
-  .footer__img-two{
+  .footer__img-two {
     width: 180px;
     top: 30%;
     left: -3%;
